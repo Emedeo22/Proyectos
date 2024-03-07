@@ -59,7 +59,7 @@ function Projects() {
           <a href="https://github.com/Emedeo22" target="_blank" rel="noopener noreferrer">
 
           </a>
-          <a href='https://store-app-sofcell.vercel.app/'>
+          <a href=''>
           <FaExternalLinkAlt className="footer__icon" />
           </a>
           <FaGithub className="footer__icon" />
