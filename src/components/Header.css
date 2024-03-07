@@ -104,7 +104,6 @@
   border-radius: 30px;
   background-color: #f0f0f0;
   box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2), -8px -8px 16px rgba(255, 255, 255, 0.5);
-  transition: transform 0.3s ease-in-out;
 }
 
 .icon-wrapper {
@@ -154,7 +153,6 @@
 .header__nav-icon {
   display: block;
   font-size: 24px;
-  animation: slideInFromLeft 1s ease-in-out;
 }
 
 @keyframes slideInFromLeft {

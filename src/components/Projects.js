@@ -1,4 +1,5 @@
 import { FaGithub, FaHtml5, FaCss3Alt, FaSass, FaJs, FaReact, FaExternalLinkAlt } from 'react-icons/fa';
+import { SiAstro } from "react-icons/si";
 import React from 'react';
 
 function Projects() {
@@ -47,6 +48,22 @@ function Projects() {
           </a>
           <FaGithub className="footer__icon" />
           <FaReact className="footer__icon" />
+        </p>
+      </div>
+      <div className="project">
+        <h3 className="project__title">MDEO Servicio Tecnico</h3>
+        <div className='container_img'>
+          <img className='project__img' src="/953shots_so.png" alt='S warranty' />
+        </div>
+        <p className="project__description">
+          <a href="https://github.com/Emedeo22" target="_blank" rel="noopener noreferrer">
+
+          </a>
+          <a href='https://store-app-sofcell.vercel.app/'>
+          <FaExternalLinkAlt className="footer__icon" />
+          </a>
+          <FaGithub className="footer__icon" />
+          <SiAstro className="footer__icon" />
         </p>
       </div>
     </section>
