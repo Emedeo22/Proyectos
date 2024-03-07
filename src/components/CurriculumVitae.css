@@ -1,0 +1,73 @@
+.curriculum-vitae {
+    max-width: 100%;
+    margin: 35px auto;
+    padding: 20px;
+    background-color: #f7faff;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #333;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    
+  }
+  
+  .card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+
