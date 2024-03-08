@@ -1,5 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { FaHtml5, FaCss3Alt, FaSass, FaJs, FaReact } from 'react-icons/fa';
+import { SiAstro } from "react-icons/si";
+
 import './Technologies.css';
 
 function Technologies() {
@@ -50,7 +52,7 @@ function Technologies() {
           <div className="technology">
             <div className="technology__name"><FaHtml5 className='icon' /></div>
             <div className="technology__progress">
-              <div className="technology__water" data-percentage="70">
+              <div className="technology__water" data-percentage="50">
                 <div className="progress-bar"></div>
               </div>
             </div>
@@ -60,7 +62,7 @@ function Technologies() {
           <div className="technology">
             <div className="technology__name"><FaCss3Alt className='icon' /></div>
             <div className="technology__progress">
-              <div className="technology__water" data-percentage="50">
+              <div className="technology__water" data-percentage="40">
                 <div className="progress-bar"></div>
               </div>
             </div>
@@ -91,6 +93,16 @@ function Technologies() {
             <div className="technology__name"><FaReact className='icon' /></div>
             <div className="technology__progress">
               <div className="technology__water" data-percentage="50">
+                <div className="progress-bar"></div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li className="technologies__item">
+          <div className="technology">
+            <div className="technology__name"><SiAstro className='icon' /></div>
+            <div className="technology__progress">
+              <div className="technology__water" data-percentage="30">
                 <div className="progress-bar"></div>
               </div>
             </div>

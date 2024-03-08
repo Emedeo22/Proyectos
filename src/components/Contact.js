@@ -31,7 +31,7 @@ function Contact() {
         <div className="footer__contact-info">
           <div className="footer__contact-item">
             
-            <span className="footer__contact-text">Phone: +543405433121</span>
+            <span className="footer__contact-text">Telefono: +543405433121</span>
           </div>
           <div className="footer__contact-item">
             
@@ -41,12 +41,12 @@ function Contact() {
         <div className="footer__quick-links">
          
           <Link
-            to="about"
+            to="presentation"
             smooth={true}
             duration={500}
             className="footer__link"
           >
-            About me
+            Sobre mi
           </Link>
           <Link
             to="projects"
@@ -54,15 +54,15 @@ function Contact() {
             duration={500}
             className="footer__link"
           >
-            Projects
+            Proyectos
           </Link>
           <Link
-            to="contact"
+            to="about"
             smooth={true}
             duration={500}
             className="footer__link"
           >
-            Contact
+            Contactos
           </Link>
         </div>
         <p className="footer__copyright">

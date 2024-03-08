@@ -11,14 +11,13 @@ function Projects() {
       
         <img className='project__img' src="/sofi.png" alt='S warranty' />
         <p className="project__description">
-          <a href="https://sofcell-online.vercel.app/" target="_blank" rel="noopener noreferrer">
-            <FaExternalLinkAlt className="footer__icon" />
-            <FaGithub className="footer__icon" />
-            <FaCss3Alt className="footer__icon" />
-            <FaJs className="footer__icon" />
-            <FaHtml5 className="footer__icon" />
-          </a>
+        <a href="https://sofcell-online.vercel.app/" target="_blank" rel="noopener noreferrer"><FaExternalLinkAlt className="footer__icon" /></a>
+        <a href="https://github.com/Emedeo22" target="_blank" rel="noopener noreferrer"><FaGithub className="footer__icon" /></a>
+          <FaCss3Alt className="footer__icon" />
+          <FaJs className="footer__icon" />
+          <FaHtml5 className="footer__icon" />
         </p>
+
       </div>
       <div className="project">
         <h3 className="project__title">Gaia Calzados E-commerce</h3>
@@ -26,12 +25,11 @@ function Projects() {
           <img className='project__img'  src="/gaia.webp" alt='S warranty' />
         </div>
         <p className="project__description">
-          <a href="https://github.com/Emedeo22" target="_blank" rel="noopener noreferrer">
-            <FaExternalLinkAlt className="footer__icon" />
-            <FaGithub className="footer__icon" />
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><FaExternalLinkAlt className="footer__icon" /></a> 
+        <a href="https://github.com/Emedeo22" target="_blank" rel="noopener noreferrer"><FaGithub className="footer__icon" /></a>           
             <FaSass className="footer__icon" />
             <FaJs className="footer__icon" />
-          </a>
+            <FaHtml5 className="footer__icon" />
         </p>
       </div>
       <div className="project">
@@ -40,15 +38,13 @@ function Projects() {
           <img className='project__img' src="/sofcell2_1.webp" alt='S warranty' />
         </div>
         <p className="project__description">
-          <a href="https://github.com/Emedeo22" target="_blank" rel="noopener noreferrer">
-
-          </a>
-          <a href='https://store-app-sofcell.vercel.app/'>
-          <FaExternalLinkAlt className="footer__icon" />
-          </a>
-          <FaGithub className="footer__icon" />
-          <FaReact className="footer__icon" />
+        <a href='https://store-app-sofcell.vercel.app/'><FaExternalLinkAlt className="footer__icon" /></a>
+        <a href="https://github.com/Emedeo22" target="_blank" rel="noopener noreferrer"><FaGithub className="footer__icon" /></a>
+        <FaReact className="footer__icon" />
+        <FaCss3Alt className="footer__icon" />
+        <FaHtml5 className="footer__icon" />
         </p>
+        
       </div>
       <div className="project">
         <h3 className="project__title">MDEO Servicio Tecnico</h3>
@@ -59,7 +55,7 @@ function Projects() {
           <a href="https://github.com/Emedeo22" target="_blank" rel="noopener noreferrer">
 
           </a>
-          <a href=''>
+          <a href='https://github.com/Emedeo22'>
           <FaExternalLinkAlt className="footer__icon" />
           </a>
           <FaGithub className="footer__icon" />

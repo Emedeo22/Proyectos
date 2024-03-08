@@ -153,6 +153,7 @@ img {
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
+  background-size: cover;
   
 }
 
@@ -166,8 +167,8 @@ img {
 
 .project__img {
   margin: 10px auto;
-  width: 400px;
-  height: 250px;
+  width: auto;
+  height: auto;
   
   position: relative;
 }

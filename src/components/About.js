@@ -27,23 +27,22 @@ function About() {
 
   return (
     <section id="about" className="section">
-      <div className="about-container">
+      
+      <div className="about-container"> 
+       
         
         <img className='banner' src="/ultimo.webp" alt="banner" />
+        <p className="presentation__text">
+          soy nicolas montes de oca<span className='Title-1'>desarrolador web</span>
+          </p>
        
         <div className="about-image-container">
+          
           <img
             className="about-image"
             src="/about2.webp" alt="avatar" />        
         </div>
-        <div className="about-button-container">
-          <button className="about-button" onClick={handleDownload}>Download CV</button>
-        </div>
-      <div className="about-text-container">
-        
-      </div>
-      </div>
-      <div className="footer__social-icons">
+         <div className="footer__social-icons">
           <a href="https://github.com/Emedeo22" target="_blank" rel="noopener noreferrer">
             <FaGithub className="footer__icon" />
           </a>
@@ -56,7 +55,13 @@ function About() {
           <a href="https://www.linkedin.com/in/nicolas-montes-de-oca-305059252/" target="_blank" rel="noopener noreferrer"><FaLinkedin className="footer__icon"/></a>
           
         </div>
-        
+        <div className="about-button-container">
+          <button className="about-button" onClick={handleDownload}>Download CV</button>
+        </div>
+      
+      </div>
+     
+    
     </section>
   );
 }

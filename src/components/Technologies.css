@@ -21,11 +21,12 @@
   }
   
   .technologies__title {
+    display: flex;
     font-size: 24px;
     text-align: center;
-    margin-bottom: 0;
+    margin-bottom: 10px;
     margin-top: 8px;
-    display: flex;
+    padding: 8px 0px;
     justify-content: space-around;
     
     
@@ -51,7 +52,8 @@
   }
   .technologies__item {
     font-size: 18px;
-    padding: 10px;
+    padding: 9px;
+
     border-radius: 8px;
     background-color: #2f2f2f;
     margin-bottom: 10px;
@@ -78,7 +80,7 @@
   }
   
   .technologies__item {
-    margin-bottom: 10px;
+    gap: 20px;
   }
   
   .technology {

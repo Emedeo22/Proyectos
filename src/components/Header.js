@@ -13,21 +13,19 @@ function Header() {
   return (
     <header className="header bg-dark py-3">
       <div className="container d-flex justify-content-center align-items-center flex-column">
-        <h1 className="header__title text-white text-center mb-0">
-         
-        </h1>
+       
         <nav className="header__nav mt-3">
           <div className="container d-flex justify-content-center">
             <ul className={`header__nav-list ${isMenuOpen ? 'active' : ''}`}>
               <li className="header__nav-item">
                 <Link
-                  to="about"
+                  to="presentation"
                   smooth={true}
                   duration={500}
                   className="transition-link"
                   activeClass="active"
                   onClick={toggleMenu}
-                >
+                > 
                   <RiFingerprintFill className="header__nav-icon" />
                 </Link>
               </li>
