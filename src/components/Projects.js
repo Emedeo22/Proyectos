@@ -33,7 +33,7 @@ function Projects() {
         </p>
       </div>
       <div className="project">
-        <h3 className="project__title">Sofcell 2.0<span className='span'> E-commerce</span></h3>
+        <h3 className="project__title">Sofcell v2.0<span className='span'> E-commerce</span></h3>
         <div className='container_img'>
           <img className='project__img' src="/sofcell2_1.webp" alt='S warranty' />
         </div>
@@ -47,7 +47,7 @@ function Projects() {
         
       </div>
       <div className="project">
-        <h3 className="project__title">MDEO Servicio Tecnico</h3>
+        <h3 className="project__title">MDEO Servicio Tecnico <span className='span'>landing page</span></h3>
         <div className='container_img'>
           <img className='project__img' src="/953shots_so.png" alt='S warranty' />
         </div>
