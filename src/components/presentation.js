@@ -13,7 +13,7 @@ export const presentation = () => {
        
         </p>
         <p className='presentation__text'>
-        VENGO DE OTRO PLANETA! ADELANTE, VALIENTE<span className='span'>VIAJERO DE LAS ESTRELLAS</span> AVENTÚRATE EN EL IMPRESIONANTE<span className='span'>COSMOS</span>  DE LA <span className='span'>INNOVACIÓN</span> Y LA EFICIENCIA. UN<span className='span'> UNIVERSO</span> DONDE LAS IDEAS SE TRANSFORMAN EN<span className='span'> MARAVILLOSAS REALIDADES</span> TECNOLÓGICAS, DONDE<span className='span'> LAS ESTRELLAS</span> SON TUS PROYECTOS Y LAS <span className='span'> CONSTELACIONES</span> DE ÉXITO ESTÁN A TU ALCANCE.
+        ADELANTE VALIENTE<span className='span'>VIAJERO DE LAS ESTRELLAS</span> AVENTÚRATE EN EL IMPRESIONANTE<span className='span'>COSMOS</span>  DE LA <span className='span'>INNOVACIÓN</span> Y LA EFICIENCIA. UN<span className='span'> UNIVERSO</span> DONDE LAS IDEAS SE TRANSFORMAN EN<span className='span'> MARAVILLOSAS REALIDADES</span> TECNOLÓGICAS, DONDE<span className='span'> LAS ESTRELLAS</span> SON TUS PROYECTOS Y LAS <span className='span'> CONSTELACIONES</span> DE ÉXITO ESTÁN A TU ALCANCE.
         </p>
        
         
