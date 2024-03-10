@@ -7,7 +7,7 @@ function Projects() {
     <section id="projects" className="section">
       <h2 className="section__title">Proyectos</h2>
       <div className="project">
-        <h3 className="project__title">Sofcell E-commerce</h3>
+        <h3 className="project__title">Sofcell <span className='span'>E-commerce</span></h3>
       
         <img className='project__img' src="/sofi.png" alt='S warranty' />
         <p className="project__description">
@@ -20,7 +20,7 @@ function Projects() {
 
       </div>
       <div className="project">
-        <h3 className="project__title">Gaia Calzados E-commerce</h3>
+        <h3 className="project__title">Gaia Calzados <span className='span'>E-commerce</span></h3>
         <div className='container_img'>
           <img className='project__img'  src="/gaia.webp" alt='S warranty' />
         </div>
@@ -33,7 +33,7 @@ function Projects() {
         </p>
       </div>
       <div className="project">
-        <h3 className="project__title">Sofcell 2.0 E-commerce</h3>
+        <h3 className="project__title">Sofcell 2.0<span className='span'> E-commerce</span></h3>
         <div className='container_img'>
           <img className='project__img' src="/sofcell2_1.webp" alt='S warranty' />
         </div>
