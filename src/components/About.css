@@ -215,14 +215,14 @@
 }
 
 .presentation {
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-background-color: #e5e5f7;
-opacity: 0.8;
-background-color: #e5e5f7;
+  background-color: #e5e5f7;
+  background-color: #e5e5f7;
   margin-bottom: 30px;
   background-image: url(/public/avatar.jpg);
   opacity: 60%;
@@ -232,7 +232,7 @@ background-color: #e5e5f7;
   margin-left: 20px;
   margin-right: 20px;
   color: #ffffff;
-  font-size: 3vh;
+  font-size: 2.5vh;
   font-weight: 700;
   display: flex;
   flex-direction: column;
@@ -241,21 +241,23 @@ background-color: #e5e5f7;
   justify-content: center;
   text-align: center;
   text-transform: uppercase;
-  text-shadow: 0 3px #000000;
-  margin-top:70px;
+  text-shadow: 0px 10px 0px #d900ff;
+
+  margin-top:80px;
 
 
 }
 .span {
   
-  color: hsl(290, 100%, 50%);
-  text-shadow: 4px 4px 4px #000000;
-  font-size: 3vh;
+  color: hsl(0, 0%, 100%);
+  text-shadow: 0px 10px 0px #b7007d;
+  font-size: 2.5vh;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 
 .presentation__content {
+  
   width: 100%;
   display: flex;
   flex-direction: column;

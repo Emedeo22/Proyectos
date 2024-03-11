@@ -33,7 +33,7 @@ function About() {
         
         <img className='banner' src="/ultimo.webp" alt="banner" />
         <p className="presentation__text">
-          soy nicolas montes de oca<span className='Title-1'>desarrolador web</span>
+          I'm Nicolas Montes De oca<span className='Title-1'>Web Developer</span>
           </p>
        
         <div className="about-image-container">
